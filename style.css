@@ -53,6 +53,7 @@ section {
     line-height: 2em;
     margin: 12vh 0;
     font-size: 3.2vw;
+    width: 100%;
 }
 
 section p {
@@ -69,6 +70,7 @@ section.imagem {
     color: white;
     box-shadow: inset 0px 5px 8px 5px rgba(0, 0, 0, 0.582);
     background-attachment: fixed;
+    background-size: cover;
     
 }
 
@@ -79,7 +81,7 @@ section.imagem p{
 
 section#img01{
     background-image: url(img/background001.jpg) ;
-    background-position: center center;
+    background-position: right center;
 }
 
 section#img02 {
